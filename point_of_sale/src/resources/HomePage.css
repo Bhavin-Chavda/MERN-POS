@@ -1,0 +1,40 @@
+
+.category{
+    border: 2px solid rgb(167, 166, 166);
+    margin-right: 50px;
+    align-items: center;
+    padding-left: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.category h4{
+    margin-right: 25px;
+    font-size: 22px;
+}
+
+.category img{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: -1px;
+}
+
+.selected-category{
+    border: 3px solid rgb(4, 9, 67);
+}
+
+.subtotal h3{
+     color: rgb(239, 100, 0);
+    font-size: 35px;
+    padding: 15;
+}
+
+
+@media only screen and (max-width:600px)
+{
+    .categories{
+        width: 100%;
+        overflow-x: scroll;
+    }
+}
